@@ -10,8 +10,8 @@ pipeline {
             steps {
                 //echo 'Building version ${parameters.VERSION}'
                 echo 'Building Project...'
-                sh 'cd untitled'
-                sh './gradlew build'
+//                 sh 'cd untitled'
+                sh './untitled/gradlew build'
             }
         }
 //         stage('Test') {
