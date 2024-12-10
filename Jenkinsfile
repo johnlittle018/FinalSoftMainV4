@@ -12,7 +12,8 @@ pipeline {
                 echo 'Building Project...'
 //                 sh 'cd untitled'
                 sh 'chmod +w ./untitled/gradlew'
-                sh './untitled/gradlew build'
+                sh ' chmod +w ./untitled/gradlew
+                ./untitled/gradlew build'
             }
         }
 //         stage('Test') {
