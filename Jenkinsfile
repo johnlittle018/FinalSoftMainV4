@@ -11,6 +11,7 @@ pipeline {
                 //echo 'Building version ${parameters.VERSION}'
                 echo 'Building Project...'
 //                 sh 'cd untitled'
+                sh 'chmod +w ./untitled/gradlew'
                 sh './untitled/gradlew build'
             }
         }
